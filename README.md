@@ -31,7 +31,7 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
 - During this week, I was introduced to a topic called **Rules of Inference**.
 - The Rules of Inferences are: Modus Ponnens, Modus Tollens, Hypothetical Syllogism, Disjunctive Syllogism, Addition, Simplification, Conjunction, and Resolution.
 - We used the different rules of inferences to solve problems such as our homework wherein we have to prove "*Superman doesn't exist!*".
-- Our professor also discussed about the different methods of proof.
+- Our professor also discussed about the different **Methods of Proof**.
 
 ## Week 4:
 -
