@@ -22,7 +22,7 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
 - I learned about a new topic in DISMATH called **Logical Equivalences**.
 - I was introduced to the different kinds of laws used in Logical Equivalences.
 - These laws are: Identity, Domination, Negation, Double Negation, Idempotent, Commutative, Associative, Distributive, De Morgan's, and Absorption.
-- I've also learned **Propositional logic** and **Quantifiers**. 
+- I've also learned about **Propositional Logic** and **Quantifiers**. 
 - Propositional Logic deals with proposition as a whole. (Subject + Predicate)
 - Quantifiers indicates the generality of an open sentence in which a variable occurs.
 - Quantifiers have two classifications, one being Existential Quantifiers (∃x) which means "There exist" and the other being Universal Quantifiers (∀x) which means "For all".
