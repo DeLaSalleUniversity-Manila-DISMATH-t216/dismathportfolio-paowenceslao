@@ -45,7 +45,7 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
 - During this week, I was introduced to a topic called **Rules of Inference**.
 - The Rules of Inferences are:
 
-|          Name          |   Rule of Inference       |            Tautology           |
+|          Name          |   Rules of Inference       |            Tautology           |
 |:---------------------: |:-------------------------:|:-----------------------------:|
 |      Modus Ponens      |       p<br>p→q<br>∴q      |        (p ∧ (p → q)) → q       |
 |      Modus Tollens     |     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
