@@ -75,14 +75,126 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
   - Assume that the premise is not true, then show that the premise will end up in a contradiction.
 - I learned about the definition of a rational number which is {a/b | a, b ∈ ℤ, b≠0, a & b have no common factors other than ±1}.
 
-## Week 5
+## Week 5:
 - The sixth method was introduced which is **Proof by Equivalence** (Biconditionals).
   - (P ↔ Q) ↔ [(P → Q) ∧ (Q → P)]
   - Show that P → Q and Q → P are both true.
 - A new lesson was introduced which is **Mathematical Induction**.
   - There are two steps in applying Mathematical Induction.
     - Basis
-      - Show that P(1) or P(0) to be true
+      - Show that P(1) or P(0) to be true.
     - Direct Proof
       - Asumme P(k) ≡ T
       - Show P(k+1) ≡ T
+
+## Week 6:
+- **Summation** (Σ “sigma”) - notation for sum of _a<sub>m</sub>, a<sub>m+1</sub>, ..., a<sub>n</sub>_ is _∑<sup>a</sup><sub>i=m </sub>a<sub>i</sub>_ where _i_ is the index of summation.
+- **Recursive/Inductive Definition**
+  - Basis step: specify the value of the function at zero.
+  - Recursive step: Find a rule for finding its value at an integer number from the values at smaller integers.
+- **Recursive Algorithm** - solves a problem by reducing it to an instance with smaller input.
+  - *Algorithm* - finite set of precise instructions for performing a computation/solving a problem.
+- **Program Correctness** - to ensure that the program always gives the correct output.
+  - *Program Verification* - The program is said to be correct if it produces the correct output for every possible input:
+    - Show that the correct answer is obtained if the program terminates (Partial Correctness).
+    - Show that the program always terminates.
+  - *Partial Correctness* - Two propositions are used to specify what it means for a program to produce the correct output:
+    - Initial Assertion - p - gives the properties that the input values must have.
+    - Final Assertion - q - gives the properties that the output of the program should have, if the program did what it was told.
+- **Hoare Triple** p{S}q
+  - S is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S.
+- **Rules of Inference**
+ - *Composition Rule* </br>
+  p{S1}q </br>
+  q{S2}r </br>
+  ______________ </br>
+   ∴ p{S1;S2)r <br>
+  - *Conditional Statements* </br>
+  (p ∧ _condition_) {S} q </br>
+  (p ∧ _¬condition_) → q </br>
+  ________________________________________</br>
+    ∴ p {**if** _condition_ **then** _S_} q
+  - *If-Else Statement* </br>
+  (p ∧ _condition_) {S<sub>1</sub>} q </br>
+  (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
+  _____________________________________ </br>
+    ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
+- **Power Series**
+  - ∑<sup>∞</sup><sub>n = 0</sub> a<sub>n</sub>x<sup>n</sup> where _a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>_ is a given sequence of constants, and _x_ is a real variable.
+ 
+  
+## Week 7:
+- **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
+    - {a, b, d, c, f, e}
+  - Empty Set { } = ∅ means no elements
+    - {∅} not an empty set
+  - Set Builder Notation 
+    - {x | some property that x satisfies}
+  - Membership
+    - 1 ∈ {1, 3, 5, 7}
+- **Venn Diagram**
+- **Set Identities**
+
+|  **Laws**  |  **Identity**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- **Subsets** (⊆) - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T.
+- **Power Set** P(S) = {T|T ⊆ S}
+- **Cardinality** - the cardinality of a set is the number of element it contains.
+- **Functions**
+  - Let A and B be sets. A function f from A to B is an assignment of exactly one element of B to each element of A.
+  - also called *mappings* or *transformations*.
+- **Types of Functions**
+    - One - to - one Function (Injection) - functions that never assign the same value to two different domain elements.
+    - Onto Function (Surjective) - functions have equal range & co-domain.
+    - One - to - one Correspondence (Bijection) - function is both one - to - one and onto.
+
+## Week 8:
+- **Algorithms** - A finite set of precise instructions for performing a computation or for solving a problem.
+  - *Properties of Algorithms*
+    - Input
+    - Output
+    - Definiteness
+    - Correctness
+    - Finiteness
+    - Generality
+- **Pseudocode** 
+  - high-level desciption of an algorithm that uses the structural conventions of a programming language.
+  - intended for human reading
+  - Preconditions - statements that describe valid input.
+  - Postconditions - conditions that the output should satisfy when the program has run.
+
+## Week 9:
+- **Searching Algorithms** - the problem of locating an element in an ordered list.
+  - *Linear Search* -  finding a particular value in a list that checks each element in sequence until the desired element is found.
+  - *Binary Search* - comparing the middle values of a list then repeated until the desired output is found.
+- **Sorting Algorithms** - the problem of assorting elements into increasing order.
+  - *Bubble Sort* - compares the first two elements then interchanging them if they are in the incorrect order.
+  - *Insertion Sort* - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+- **Greedy Algorithms** - algorithms that make what seems to be the "best" choice at each step. Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution.
+- We started discussing *Growth of Functions*
+ 
+## Week 10:
+- **Growth of Functions**
+  - *Big-O Notation*
+    - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that: *"|f(x)| ≤ C|g(x)|"* whenever x > k.
+    - Constants _C_ and _k_ are called witnesses.
+  - *Big-Omega and Big-Theta Notation*
+    - Big-O Notation does not provide a lowerbound for the size of f(x). 
+      - Big-Omega (Big-Ω) - lower bound
+      - Big-Theta (Big-Θ) - both upper and lower bound
+- **Algorithm Time Complexity** - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- **Division and Modulo Operator**
+  - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r.
+  - Q = a div d
+  - r = a mod d
