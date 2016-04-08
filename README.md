@@ -198,3 +198,87 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
   - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r.
   - Q = a div d
   - r = a mod d
+
+## Week 11:
+-No classes because of Holy Week
+
+## Week 12:
+- **Graph Theory**
+  - Graph - discrete structures consisting of vertices and edges that connect these vertices.
+  - A graph G = (V,E) consists of V, a nonempty set of *vertices* (or nodes) and E, a set of *edges*. Each edge has either one or two vertices associated with it, called its *endpoints**.
+  - Applications
+    - Networks (LAN, MAN, Social Networks, etc.)
+    - Job assignments
+    - Representing computational models
+    - Developing a bot to retrieve info off www
+
+- **Hand shaking theory**
+    2e = ∑deg(v)
+
+  - *Path* - sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along edges of the graph.
+  - *Euler Circuit* - a simple circuit containing every edge of a graph. (All vertices have an even number of degree)
+  - *Euler Path* - simple path containing every edge of a graph. (Exactly 2 vertices have an odd number of degree)
+  - *Hamilton Path* - a simple path that passes through every vertex exactly once.
+  - *Hamilton Circuit* - a simple circuit that passes through every vertex exactly once which ends up in the same place in which it began.
+
+- **Matrices of Graphs** 
+  - 1 for adjacent; 0 for non-adjacent
+- **Incidence of Matrices** 
+  - a matrix between the vertices and the edges.
+
+- **Isomorphism of Graphs** 
+  - a simple graph is isomorphic if it has a one-to-one and onto function.
+  - i.e. vertices change and still have the same connection as before.
+
+- **Planar Graph**
+  - Graphs that can be drawn in the plane without edges having to cross.
+  - Euler's Formula: r = e - v + 2
+    - r - regions
+    - e - edges
+    - v - vertices
+  - Euler's Characteristic: ℵ = r - |e| + |v| where ℵ = 2
+
+- **Homeomorphic Graphs**
+  - Graphs are called homeomorphic if they can be obtained from the same graph by a sequence of elementary subdivisions.
+  - *Elementary Subdivision* - If a graph is planar, so will be any graph obtained by removing an edge and adding a new vertex together with edges.
+  - *Kuratowski's Theorem* - a graph is nonplanar if and only if it contains a subgraph homeophobic to K3,3 and K5.
+
+## Week 13:
+- **Graph Coloring** - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color.
+  - *Four Color Theorem* - the chromatic number of a planar graph is no greater than four.
+
+- **Trees**
+  - A connected undirected graph with no simple circuits.
+  - A data structure that emulates a heirarchical tree structure with a set of linked nodes.
+  - Used to construct efficient algorithms for locating an item in a list.
+  - Multiple *Trees* are called **Forest**.
+  - *Rooted Tree* - a tree in which one vertex has been designated as the root and every edge is directed away from the root.
+    - Root - the beginning of a tree
+    - Internal vertices - every vertex before the leaves
+    - Leaves - vertices with no descendants
+  - *M-ary tree*
+    - A rooted tree is called an m-ary tree if every internal vertex has no more than m children.
+    - An m-ary tree with m = 2 is called a *binary tree*
+
+- **Modeling Computations**
+  - *Language and Grammars*
+    - Grammars - used to generate the words of a language and to determine whether a word is in a language
+    - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
+      - Formal Language - automatic translation of one language to another
+        - well defined set of rules
+
+- **Alphabet & String**
+    - common way to talk about words, numbers, etc.
+
+- **Automata Theory**
+    - Studies the law of computation
+    - Finite Automata - simplest model of automata
+      - initial state
+      - final state
+      - dead/stuck state
+      - transition state
+
+- **Lexical Analysis**
+    - process where the stream of characters making up the source program into a sequence of "words" that make up the source code.
+
+- **Finite State Machine**
