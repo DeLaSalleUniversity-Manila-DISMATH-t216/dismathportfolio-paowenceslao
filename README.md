@@ -228,7 +228,7 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
 
 - **Isomorphism of Graphs** 
   - a simple graph is isomorphic if it has a one-to-one and onto function.
-  - i.e. vertices change and still have the same connection as before.
+  - i.e. vertices change positions and still have the same connection as before.
 
 - **Planar Graph**
   - Graphs that can be drawn in the plane without edges having to cross.
@@ -282,3 +282,13 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
     - process where the stream of characters making up the source program into a sequence of "words" that make up the source code.
 
 - **Finite State Machine**
+  - S: Finite set of states
+  - I: Finite input alphabet
+  - O: Finite output alphabet
+  - f: Transition function
+  - g: Output function
+  - s<sub>0</sub>: Initial state
+
+- **Turing Machine**
+    - Alan Turing, the father of computer science.
+    - "Imitation Game" movie based on his life.
