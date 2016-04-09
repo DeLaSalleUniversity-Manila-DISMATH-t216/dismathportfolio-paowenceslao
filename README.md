@@ -292,3 +292,7 @@ dismathportfolio-paowenceslao created by Classroom for GitHub
 - **Turing Machine**
     - Alan Turing, the father of computer science.
     - "Imitation Game" movie based on his life.
+
+## Week 14:
+- Finals Week
+- Submission of DISMATH Project
